@@ -7,10 +7,10 @@ namespace App\Http\Requests;
 use App\Data\PitchDraft;
 use Illuminate\Foundation\Http\FormRequest;
 
-use function filter_var;
 use function array_filter;
 use function array_map;
 use function array_values;
+use function filter_var;
 use function trim;
 
 abstract class PitchDraftRequest extends FormRequest
